@@ -1,0 +1,8 @@
+def hello(name, age):
+    print("Hello " + name + ", you are " + str(age) + " year's old")
+hello("emon", 17)
+
+name = input("Enter your name here : ")
+age = input("Enter your age here : ")
+
+print("Hello " + name + " ! " + "you are " + str(age) + " year's old")

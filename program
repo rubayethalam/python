@@ -1,0 +1,59 @@
+
+# getting input from user
+
+# name = input("Enter your name: ")
+# age = input("Enter your age: ")
+# print("Hello " + name + " ! " + "you are " + age)
+# building a calculator
+# num1 = input("Enter a number: ")
+# num2 = input("Enter another number: ")
+# result = float(num1) + float(num2)   *float is for desibles and number int is for only numbers
+# print(result)
+
+# Madlibs
+
+# color = input("Enter a color: ")
+# plural_noun = input("Enter a plural noun: ")
+# celibrity = input("Enter a celibrity's name: ")
+# print("roses are " + color)
+# print(plural_noun + " are blue")
+# print("I love " + celibrity)
+
+# creating a list
+
+# food = ["banana", "milk", "strawberry", "Burger", "pizza"]
+#            0         1          2          3          4
+# print(food[0:4]) *this  will print banana-Burger and pizza will be left out.
+
+# listfunction
+
+# lucky_number = [4, 8, 15, 15, 23, 42]
+# food = ["banana", "milk", "strawberry","strawberry", "Burger", "pizza"]
+# food.extend(lucky_number) {adding tow list}
+# food.append("biscutes") {adding a thing to list}
+# food.insert(1, "dounut") {adding a thing to a specefic location in the list}
+# food.remove("milk") {removing an element from list}
+# food.clear() {remove everything from a list}
+# food.pop() {remove the last element form lsit}
+# lucky_number.sort() {sorts everything in assending order}
+# lucky_number.reverse()
+# food2 = food.copy()
+# print(food2)
+#  print(food.index("banana")) {specefied }
+#  print(food.count("strawberry"))
+
+# function
+
+# def say_hi(name, age):
+#     print("Hello " + name +", You are " + str(age)+" year's old" )
+#
+# say_hi("emon", 17)
+
+# return function
+
+# def cube(num):
+#     return num*num*num
+#
+# result = cube(4)
+# print(result)
+
